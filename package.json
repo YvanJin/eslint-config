@@ -1,0 +1,22 @@
+{
+  "name": "@yvanjin/eslint-config",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Yvan Jin <jinyufeng2009@163.com> (https://github.com/YvanJin/)",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^8.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0"
+  },
+  "dependencies": {
+    "eslint-config-standard": "17.0.0-1",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-n": "^15.0.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-vue": "^8.5.0"
+  }
+}
