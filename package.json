@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
   "author": "Yvan Jin <jinyufeng2009@163.com> (https://github.com/YvanJin/)",
   "license": "MIT",
   "peerDependencies": {
