@@ -1,3 +1,3 @@
 module.exports = {
-  extends: require.resolve('./config/basic.js'),
+  extends: require.resolve('./config/typescript.js'),
 }
