@@ -1,5 +1,7 @@
 # @yvanjin/eslint-config [![npm](https://img.shields.io/npm/v/@yvanjin/eslint-config?color=a1b858&label=)](https://www.npmjs.com/package/@yvanjin/eslint-config)
 
+YvanJin's ESLint Config 
+
 ## Usage
 
 ### Install
@@ -12,7 +14,7 @@ yarn add eslint typescript @yvanjin/eslint-config -D
 
 ```json
 {
-  "extents": "@yvanjin
+  "extents": "@yvanjin"
 }
 ```
 
