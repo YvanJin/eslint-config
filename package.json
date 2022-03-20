@@ -1,6 +1,6 @@
 {
   "name": "@yvanjin/eslint-config",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "",
   "license": "MIT",
   "author": "Yvan Jin <jinyufeng2009@163.com> (https://github.com/YvanJin/)",
@@ -31,5 +31,4 @@
     "eslint": "^8.11.0",
     "typescript": "^4.6.2"
   }
-
 }
