@@ -100,6 +100,6 @@ module.exports = {
     'import/order': ['error'], // 严格导入类型的顺序
     'import/no-absolute-path': ['error'], // 禁止使用绝对路径导入模块
     'import/no-mutable-exports': ['error'], // 禁止使用 var 或者 let 的可变导入
-    'import/no-unresolved': ['error'], // 要求导入指向一个可以解析的文件/模块
+    'import/no-unresolved': 'off', // 不要求导入指向一个可以解析的文件/模块
   },
 }
