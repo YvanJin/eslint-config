@@ -84,6 +84,7 @@ module.exports = {
     'semi': ['error', 'never'], // 禁止使用分号
 
     // eslint variables
+    'no-undef': 'off', // 未声明的变量可用
     'no-unused-vars': ['warn'], // 警告未使用到的变量
 
     // eslint es6
