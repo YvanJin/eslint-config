@@ -40,6 +40,8 @@ module.exports = {
     '@typescript-eslint/object-curly-spacing': ['error', 'always'], // 强制在花括号中使用一致的空格
     'no-redeclare': 'off',
     '@typescript-eslint/no-redeclare': ['error', { builtinGlobals: false }], // 禁止重复声明
+    'no-undef': 'off',
+    '@typescript-eslint/no-undef': 'off', // 未声明的变量可用
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': ['warn'], // 警告未使用到的变量
     'no-use-before-define': 'off',
