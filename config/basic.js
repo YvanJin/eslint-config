@@ -8,11 +8,22 @@ module.exports = {
     'standard',
     'plugin:import/recommended',
     'plugin:jsonc/recommended-with-jsonc',
+    'plugin:yml/standard',
   ],
   overrides: [
     {
       files: ['*.json', '*.json5', '*.jsonc'],
       parser: 'jsonc-eslint-parser',
+    },
+    {
+      files: ['*.yaml', '*.yml'],
+      parser: 'yaml-eslint-parser',
+      rules: {
+        'yml/no-empty-document': 'off', // 允许空文档
+        'yml/quotes': ['error', { prefer: 'single', avoidEscape: false }], // 强制单引号
+        'spaced-comment': 'off',
+        'yml/spaced-comment': 'error', // 强制注释前的空格
+      },
     },
     {
       files: ['package.json'],
