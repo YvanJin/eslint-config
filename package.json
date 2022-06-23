@@ -6,7 +6,7 @@
   "author": "Yvan Jin <jinyufeng2009@163.com> (https://github.com/YvanJin/)",
   "main": "index.js",
   "scripts": {
-    "publish": "npm publish --access public"
+    "release": "npm publish --access public"
   },
   "peerDependencies": {
     "eslint": "^8.0.1"
@@ -24,6 +24,7 @@
     "eslint-plugin-jsonc": "^2.3.0",
     "eslint-plugin-n": "^15.2.2",
     "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-vue": "^9.1.1",
     "eslint-plugin-yml": "^1.0.0",
     "jsonc-eslint-parser": "^2.1.0",
