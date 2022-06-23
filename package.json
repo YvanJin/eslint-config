@@ -8,6 +8,11 @@
   "scripts": {
     "release": "npm publish --access public"
   },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "peerDependencies": {
     "eslint": "^8.0.1"
   },
