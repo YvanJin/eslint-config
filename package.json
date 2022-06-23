@@ -4,20 +4,7 @@
   "description": "",
   "license": "MIT",
   "author": "Yvan Jin <jinyufeng2009@163.com> (https://github.com/YvanJin/)",
-  "exports": {
-    "/basic": {
-      "require": "./config/basic.js"
-    },
-    "/typescript": {
-      "require": "./config/typescript.js"
-    },
-    "/vue": {
-      "require": "./config/vue.js"
-    },
-    "/react": {
-      "require": "./config/react.js"
-    }
-  },
+  "main": "index.js",
   "scripts": {
     "release": "npm publish --access public"
   },
