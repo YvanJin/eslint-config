@@ -4,7 +4,7 @@ module.exports = {
   },
   extends: [
     'plugin:vue/vue3-recommended',
-    './typescript.js',
+    '@yvanjin/eslint-config-typescript',
   ],
   overrides: [
     {

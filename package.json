@@ -1,41 +1,18 @@
 {
-  "name": "@yvanjin/eslint-config",
-  "version": "0.5.7",
-  "description": "",
+  "name": "@yvanjin/eslint-config-monorepo",
+  "version": "0.6.0",
+  "private": true,
+  "description": "YvanJin's ESLint Config Monorep",
   "license": "MIT",
   "author": "Yvan Jin <jinyufeng2009@163.com> (https://github.com/YvanJin/)",
-  "main": "index.js",
   "scripts": {
-    "release": "npm publish --access public"
-  },
-  "settings": {
-    "react": {
-      "version": "detect"
-    }
-  },
-  "peerDependencies": {
-    "eslint": "^8.0.1"
-  },
-  "peerDependenciesMeta": {
-    "typescript": {
-      "optional": true
-    }
-  },
-  "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.28.0",
-    "@typescript-eslint/parser": "^5.28.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jsonc": "^2.3.0",
-    "eslint-plugin-n": "^15.2.2",
-    "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-react": "^7.30.0",
-    "eslint-plugin-vue": "^9.1.1",
-    "eslint-plugin-yml": "^1.0.0",
-    "jsonc-eslint-parser": "^2.1.0",
-    "yaml-eslint-parser": "^1.0.1"
+    "lint": "eslint .",
+    "prepare": "pnpm -r run stub",
+    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
   },
   "devDependencies": {
+    "@yvanjin/eslint-config": "*",
+    "bumpp": "^7.1.1",
     "eslint": "^8.17.0",
     "typescript": "^4.7.3"
   }

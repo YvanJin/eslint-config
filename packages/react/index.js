@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     'plugin:react/recommended',
-    './typescript.js',
+    '@yvanjin/eslint-config-typescript',
   ],
   rules: {
     'jsx-quotes': ['error', 'prefer-double'],

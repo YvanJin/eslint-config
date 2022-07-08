@@ -1,0 +1,25 @@
+{
+  "name": "@yvanjin/eslint-config",
+  "version": "0.6.0",
+  "description": "YvanJin's ESLint Config",
+  "keywords": ["eslint-config"],
+  "license": "MIT",
+  "author": "Yvan Jin <jinyufeng2009@163.com> (https://github.com/YvanJin/)",
+  "homepage": "https://github.com/YvanJin/eslint-config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.0.1"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@yvanjin/eslint-config-react": "workspace:*",
+    "@yvanjin/eslint-config-vue": "workspace:*"
+  }
+}

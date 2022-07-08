@@ -1,0 +1,26 @@
+{
+  "name": "@yvanjin/eslint-config-basic",
+  "version": "0.6.0",
+  "description": "YvanJin's ESLint Config Basic",
+  "keywords": ["eslint-config"],
+  "license": "MIT",
+  "author": "Yvan Jin <jinyufeng2009@163.com> (https://github.com/YvanJin/)",
+  "homepage": "https://github.com/YvanJin/eslint-config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.0.1"
+  },
+  "dependencies": {
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsonc": "^2.3.0",
+    "eslint-plugin-n": "^15.2.2",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-yml": "^1.0.0",
+    "jsonc-eslint-parser": "^2.1.0",
+    "yaml-eslint-parser": "^1.0.1"
+  }
+}
