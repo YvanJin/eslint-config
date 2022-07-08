@@ -1,6 +1,6 @@
 {
   "name": "@yvanjin/eslint-config-react",
-  "version": "0.6.0",
+  "version": "0.5.7",
   "description": "YvanJin's ESLint Config React",
   "keywords": ["eslint-config"],
   "license": "MIT",
