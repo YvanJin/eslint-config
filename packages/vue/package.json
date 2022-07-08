@@ -1,8 +1,10 @@
 {
   "name": "@yvanjin/eslint-config-vue",
-  "version": "0.5.7",
+  "version": "0.6.0",
   "description": "YvanJin's ESLint Config Vue",
-  "keywords": ["eslint-config"],
+  "keywords": [
+    "eslint-config"
+  ],
   "license": "MIT",
   "author": "Yvan Jin <jinyufeng2009@163.com> (https://github.com/YvanJin/)",
   "homepage": "https://github.com/YvanJin/eslint-config",
