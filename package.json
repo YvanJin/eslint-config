@@ -1,19 +1,18 @@
 {
   "name": "@yvanjin/eslint-config-monorepo",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "private": true,
   "description": "YvanJin's ESLint Config Monorep",
   "license": "MIT",
   "author": "Yvan Jin <jinyufeng2009@163.com> (https://github.com/YvanJin/)",
   "scripts": {
     "lint": "eslint .",
-    "prepare": "pnpm -r run stub",
     "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
   },
   "devDependencies": {
     "@yvanjin/eslint-config": "*",
-    "bumpp": "^7.1.1",
-    "eslint": "^8.17.0",
-    "typescript": "^4.7.3"
+    "bumpp": "^8.2.1",
+    "eslint": "^8.20.0",
+    "typescript": "^4.7.4"
   }
 }

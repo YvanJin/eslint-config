@@ -1,6 +1,6 @@
 {
   "name": "@yvanjin/eslint-config-vue",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "YvanJin's ESLint Config Vue",
   "keywords": [
     "eslint-config"
@@ -22,6 +22,6 @@
   },
   "dependencies": {
     "@yvanjin/eslint-config-typescript": "workspace:*",
-    "eslint-plugin-vue": "^9.1.1"
+    "eslint-plugin-vue": "^9.2.0"
   }
 }

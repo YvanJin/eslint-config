@@ -1,6 +1,6 @@
 {
   "name": "@yvanjin/eslint-config-basic",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "YvanJin's ESLint Config Basic",
   "keywords": [
     "eslint-config"
@@ -18,8 +18,8 @@
   "dependencies": {
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jsonc": "^2.3.0",
-    "eslint-plugin-n": "^15.2.2",
+    "eslint-plugin-jsonc": "^2.3.1",
+    "eslint-plugin-n": "^15.2.4",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-yml": "^1.0.0",
     "jsonc-eslint-parser": "^2.1.0",

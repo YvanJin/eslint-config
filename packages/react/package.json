@@ -1,6 +1,6 @@
 {
   "name": "@yvanjin/eslint-config-react",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "YvanJin's ESLint Config React",
   "keywords": [
     "eslint-config"
@@ -27,6 +27,6 @@
   },
   "dependencies": {
     "@yvanjin/eslint-config-typescript": "workspace:*",
-    "eslint-plugin-react": "^7.30.0"
+    "eslint-plugin-react": "^7.30.1"
   }
 }

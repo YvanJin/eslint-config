@@ -1,6 +1,6 @@
 {
   "name": "@yvanjin/eslint-config-typescript",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "YvanJin's ESLint Config TypeScript",
   "keywords": [
     "eslint-config"
@@ -21,8 +21,8 @@
     }
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.28.0",
-    "@typescript-eslint/parser": "^5.28.0",
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
     "@yvanjin/eslint-config-basic": "workspace:*"
   }
 }
