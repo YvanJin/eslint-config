@@ -1,6 +1,6 @@
 {
   "name": "@yvanjin/eslint-config-monorepo",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "private": true,
   "description": "YvanJin's ESLint Config Monorep",
   "license": "MIT",
