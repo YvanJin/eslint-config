@@ -27,6 +27,6 @@
   },
   "dependencies": {
     "@yvanjin/eslint-config-typescript": "workspace:*",
-    "eslint-plugin-react": "^7.30.1"
+    "eslint-plugin-react": "^7.31.7"
   }
 }
