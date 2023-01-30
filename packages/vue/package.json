@@ -1,6 +1,6 @@
 {
   "name": "@yvanjin/eslint-config-vue",
-  "version": "0.6.5",
+  "version": "0.6.6",
   "description": "YvanJin's ESLint Config Vue",
   "keywords": [
     "eslint-config"
